@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: "backend",
+            name: "store-backend",
             script: "./build/index.js",
             watch: false,
             instances: 1,

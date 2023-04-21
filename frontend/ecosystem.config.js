@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: "frontend",
+            name: "store-frontend",
             script: "yarn",
             args: "start -p 3002",
             watch: false,
