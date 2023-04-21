@@ -1,0 +1,113 @@
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #0000001f;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+    height: 100%;
+    background-color: white;
+    border-left: solid 1px whitesmoke;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    padding: 0 0 0 15px;
+    justify-content: space-between;
+    border-bottom: solid 1px whitesmoke;
+}
+
+.Header h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Header button {
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Header button svg {
+    width: 25px;
+    height: 25px;
+    fill: #030303;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.Content button {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    padding: 0 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.Content button:hover {
+    opacity: .7;
+}
+
+.Input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: solid 1px #cdcdcd;
+    height: 48px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.Input:focus-within {
+    border-color: black;
+}
+
+.Input input {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: .9rem;
+}
+
+.Error {
+    font-size: .9rem;
+    margin-bottom: 15px;
+    color: #f44336;
+}

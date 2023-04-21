@@ -1,0 +1,58 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 15px;
+    border-bottom: solid 1px whitesmoke;
+}
+
+.Header figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header figure h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.Header figure span {
+    font-size: .9rem;
+    color: #6e6e6e;
+}
+
+.Actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Actions button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.Actions button:hover {
+    opacity: .8;
+}
+
+.Actions .Primary {
+    background-color: black;
+    color: white;
+}
+
+.Actions button:last-child {
+    margin: 0;
+}

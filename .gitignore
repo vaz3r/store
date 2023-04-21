@@ -1,0 +1,7 @@
+
+app/.expo/*
+app/dist/*
+app/node_modules/*
+backend/.env
+backend/build/*
+backend/node_modules/*
