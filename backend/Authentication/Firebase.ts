@@ -1,10 +1,10 @@
 import * as FirebaseAdmin from 'firebase-admin';
-import path from 'path';
+import ServiceAccount from "./ServiceAccount.json";
 
-const ServiceAccount = require(path.resolve(__dirname, './ServiceAccount.json'));
+const ServiceParameters = ServiceAccount as any;
 
 FirebaseAdmin.initializeApp({
-    credential: FirebaseAdmin.credential.cert(ServiceAccount)
+    credential: FirebaseAdmin.credential.cert(ServiceParameters)
 });
 
 export const DeleteUser = async (UID: string) => {
